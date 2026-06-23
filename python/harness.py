@@ -1,5 +1,5 @@
 import json
-from ask import ask_gpt, ask_claude
+from python.ask import ask_gpt, ask_claude
 
 prompts = [
     "Explain APIs to a beginner.",

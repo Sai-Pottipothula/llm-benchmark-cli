@@ -1,0 +1,172 @@
+[
+  {
+    "prompt": "Explain APIs to a beginner.",
+    "gpt": {
+      "model": "gpt-4.1-mini",
+      "answer": "Sure! Here\u2019s a simple explanation of APIs for beginners:\n\n**What is an API?**\n\nAPI stands for **Application Programming Interface**. It\u2019s like a messenger that allows two different software programs to talk to each other.\n\n**Imagine this:**\n\nYou\u2019re at a restaurant. You (the user) look at the menu and decide what you want to eat. Then you tell the waiter your order. The waiter goes to the kitchen, tells the chef what you want, and then brings your food back to you.\n\n- In this example, the **restaurant kitchen** is the system or service that prepares your food.\n- The **waiter** is the API.\n- You are the user.\n\nThe waiter (API) takes your request (order), tells the kitchen (system) what you want, and brings back the result (your food).\n\n**Why are APIs useful?**\n\n- They allow different software systems to communicate and work together.\n- Developers don\u2019t need to know all the details about how a system works; they just need to know how to speak its API.\n- APIs make it easy to add new features or integrate with other services. For example, your weather app might use an API to get weather data from a remote weather service.\n\n**Example:**\n\nIf you use a social media app that shows your friend\u2019s information or photos from another platform, it\u2019s likely using that platform\u2019s API to get the data and show it in the app.\n\n---\n\n**In short:**\n\nAn API is a way for different programs to talk to each other and share information, just like a waiter takes your order and brings you food at a restaurant.",
+      "input_tokens": 23,
+      "output_tokens": 332,
+      "latency": 7.81
+    },
+    "claude": {
+      "model": "claude-haiku-4-5",
+      "answer": "# APIs Explained for Beginners\n\n## The Simple Definition\nAn **API** (Application Programming Interface) is a bridge that lets different software applications talk to each other and share information.\n\n## A Real-World Analogy\nThink of an API like a restaurant:\n\n- **You** = Your computer/app\n- **Waiter** = The API\n- **Kitchen** = Another application's data/features\n- **Menu** = API documentation (instructions)\n\nYou don't go into the kitchen yourself\u2014you tell the waiter what you want, and they bring it back to you.\n\n## How It Works in Practice\n\n**Example: Weather App**\n1. You open a weather app on your phone\n2. The app sends a request to a weather service's API (asking \"What's the weather in New York?\")\n3. The weather service processes that request\n4. The API sends back the information (temperature, humidity, forecast)\n5. Your app displays it nicely for you\n\n## Key Benefits\n\n- **You don't need to rebuild everything** \u2014 use someone else's already-built features\n- **Saves time and resources** \u2014 no need to create your own weather database\n- **Security** \u2014 you don't get direct access to sensitive systems\n- **Consistency** \u2014 standardized way for apps to communicate\n\n## Common Examples\n\n- Twitter API (get tweets)\n- Google Maps API (embed maps)\n- Stripe API (process payments)\n- OpenWeather API (get weather data)\n\n**Bottom line:** APIs are the messengers that let apps work together!",
+      "input_tokens": 21,
+      "output_tokens": 345,
+      "latency": 4.55
+    }
+  },
+  {
+    "prompt": "Write a professional email asking for a referral.",
+    "gpt": {
+      "model": "gpt-4.1-mini",
+      "answer": "Subject: Request for a Professional Referral\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I am reaching out to ask if you would be willing to provide a referral for me as I pursue new opportunities in [your industry or field]. Given our positive working relationship and your familiarity with my skills and experience, your endorsement would be highly valuable.\n\nIf you agree, I would be happy to share any additional information you might need to make the process easier. Thank you very much for considering my request. I truly appreciate your support.\n\nBest regards,  \n[Your Full Name]  \n[Your Contact Information]  \n[Your LinkedIn Profile (optional)]",
+      "input_tokens": 26,
+      "output_tokens": 134,
+      "latency": 2.45
+    },
+    "claude": {
+      "model": "claude-haiku-4-5",
+      "answer": "# Professional Referral Request Email\n\n**Subject: Referral Request \u2013 [Your Name]**\n\n---\n\nDear [Recipient's Name],\n\nI hope this message finds you well. I am reaching out to ask if you would be willing to refer me for [specific position/opportunity] at [Company Name].\n\nOver the past [timeframe], I have developed strong expertise in [relevant skills/areas], and I believe my background aligns well with [Company Name]'s goals and culture. Having followed your work and the company's achievements, I am genuinely excited about the possibility of contributing to your team.\n\nYour perspective and recommendation would be invaluable, as I respect your professional judgment and understand your standing within the organization. I would be grateful for any support you can offer in this process.\n\nI have attached my resume and am happy to provide any additional information you may need. Please let me know if you would like to discuss this further or if you have any questions.\n\nThank you very much for considering my request. I truly appreciate your time and support.\n\nBest regards,\n\n[Your Name]  \n[Your Phone Number]  \n[Your Email Address]  \n[LinkedIn Profile URL] *(optional)*\n\n---\n\n**Tips:**\n- Personalize the message with specific details\n- Be concise and respectful of their time\n- Make it easy for them by attaching your resume\n- Give them an easy way to help (offer to provide talking points if needed)",
+      "input_tokens": 23,
+      "output_tokens": 317,
+      "latency": 3.84
+    }
+  },
+  {
+    "prompt": "Summarize what an LLM is in 5 bullet points.",
+    "gpt": {
+      "model": "gpt-4.1-mini",
+      "answer": "- LLM stands for Large Language Model, a type of artificial intelligence designed to understand and generate human language.\n- It is trained on vast amounts of text data to learn patterns, grammar, facts, and context.\n- LLMs can perform various language tasks such as translation, summarization, question answering, and conversation.\n- They use deep learning techniques, particularly transformer architectures, to process and generate text.\n- Despite their capabilities, LLMs do not possess true understanding or consciousness; their outputs are based on statistical patterns in data.",
+      "input_tokens": 31,
+      "output_tokens": 109,
+      "latency": 3.83
+    },
+    "claude": {
+      "model": "claude-haiku-4-5",
+      "answer": "# What is an LLM?\n\n\u2022 **Large Language Model** - An AI system trained on vast amounts of text data to understand and generate human language\n\n\u2022 **Pattern Recognition** - Learns statistical patterns in language to predict and generate contextually relevant text based on input prompts\n\n\u2022 **Neural Network Architecture** - Built on deep learning technology (typically transformer-based) with billions of parameters that enable sophisticated language understanding\n\n\u2022 **Broad Capabilities** - Can perform diverse tasks like answering questions, writing, summarization, translation, coding, and reasoning without task-specific training\n\n\u2022 **Probabilistic Generation** - Generates text by calculating probability distributions over possible next words, rather than retrieving pre-written responses",
+      "input_tokens": 29,
+      "output_tokens": 152,
+      "latency": 2.06
+    }
+  },
+  {
+    "prompt": "Write a Python function to reverse a string.",
+    "gpt": {
+      "model": "gpt-4.1-mini",
+      "answer": "Certainly! Here's a simple Python function to reverse a string:\n\n```python\ndef reverse_string(s):\n    return s[::-1]\n\n# Example usage:\nprint(reverse_string(\"hello\"))  # Output: \"olleh\"\n```",
+      "input_tokens": 26,
+      "output_tokens": 46,
+      "latency": 1.32
+    },
+    "claude": {
+      "model": "claude-haiku-4-5",
+      "answer": "# Python Function to Reverse a String\n\nHere are several ways to reverse a string:\n\n## 1. **Using String Slicing (Simplest)**\n```python\ndef reverse_string(s):\n    return s[::-1]\n\n# Example usage\nprint(reverse_string(\"Hello\"))  # Output: olleH\nprint(reverse_string(\"Python\"))  # Output: nohtyP\n```\n\n## 2. **Using a Loop**\n```python\ndef reverse_string(s):\n    reversed_str = \"\"\n    for char in s:\n        reversed_str = char + reversed_str\n    return reversed_str\n\n# Example usage\nprint(reverse_string(\"Hello\"))  # Output: olleH\n```\n\n## 3. **Using the `reversed()` Function**\n```python\ndef reverse_string(s):\n    return ''.join(reversed(s))\n\n# Example usage\nprint(reverse_string(\"Hello\"))  # Output: olleH\n```\n\n## 4. **Using Recursion**\n```python\ndef reverse_string(s):\n    if len(s) == 0:\n        return s\n    return reverse_string(s[1:]) + s[0]\n\n# Example usage\nprint(reverse_string(\"Hello\"))  # Output: olleH\n```\n\n## 5. **Using Stack (List)**\n```python\ndef reverse_string(s):\n    stack = list(s)\n    reversed_str = \"\"\n    while stack:\n        reversed_str += stack.pop()\n    return reversed_str\n\n# Example usage\nprint(reverse_string(\"Hello\"))  # Output: olleH\n```\n\n---\n\n## **Comparison**\n\n| Method | Simplicity | Performance | Use Case |\n|--------|-----------|-------------|----------|\n| Slicing `[::-1]` | \u2b50\u2b50\u2b50\u2b50\u2b50 | Very Fast | Best choice for most cases |\n| `reversed()` | \u2b50\u2b50\u2b50\u2b50 | Fast | When you need an iterator |\n| Loop | \u2b50\u2b50\u2b50 | Slower | Educational",
+      "input_tokens": 22,
+      "output_tokens": 500,
+      "latency": 3.23
+    }
+  },
+  {
+    "prompt": "Explain the difference between REST and GraphQL.",
+    "gpt": {
+      "model": "gpt-4.1-mini",
+      "answer": "Certainly! Here\u2019s a clear comparison explaining the difference between REST and GraphQL:\n\n### REST (Representational State Transfer)\n- **Architecture Style:** REST is an architectural style for designing networked applications.\n- **Resource-based:** Data is organized into resources, each identified by a URL (endpoint).\n- **Multiple Endpoints:** Different endpoints correspond to different resources or actions. For example, `/users`, `/posts`, `/comments`.\n- **HTTP Methods:** Uses standard HTTP methods explicitly for actions:\n  - GET (retrieve data)\n  - POST (create data)\n  - PUT/PATCH (update data)\n  - DELETE (remove data)\n- **Fixed Data Structure:** The server defines the structure of the response, and clients get fixed data for each request.\n- **Multiple Requests for Related Data:** If related data is needed (e.g., users and their posts), the client might need to make multiple requests to different endpoints.\n- **Over-fetching/Under-fetching:** Clients often receive more data than necessary (over-fetching) or need extra requests because they cannot specify exactly what they want (under-fetching).\n\n---\n\n### GraphQL\n- **Query Language and Runtime:** GraphQL is both a query language and a runtime for APIs.\n- **Single Endpoint:** Uses a single URL endpoint for all queries and mutations.\n- **Client-driven Queries:** The client specifies exactly what data it needs, including nested and related data, in a single request.\n- **Flexible and Precise:** Enables precise fetching of just the required fields, reducing over-fetching and under-fetching.\n- **Strongly Typed Schema:** The API is defined by a schema specifying types and relationships, making the API self-documenting.\n- **Supports Queries and Mutations:** Queries fetch data, mutations modify data. Subscriptions can also provide real-time updates.\n- **More Complex to Implement:** Requires setting up resolvers for fetching data dynamically based on queries.\n\n---\n\n### Summary Table\n\n| Feature               | REST                           | GraphQL                         |\n|-----------------------|--------------------------------|--------------------------------|\n| Endpoint(s)           | Multiple per resource          | Single endpoint                |\n| Data fetching         | Fixed responses per endpoint  | Client specifies data exactly  |\n| Over-fetching         | Common                        | Minimal                       |\n| Under-fetching        | Common                        | Avoided                      |\n| Request type          | Multiple requests for related data | Single request for complex data |\n| API schema            | Implicit                      | Strongly typed and explicit   |\n| Flexibility           | Less flexible                 | Highly flexible               |\n| Learning curve        | Easier                       | Steeper                      |\n\n---\n\n### When to Use Which?\n- **REST:** Simple APIs, well-established, caching benefits, easier to understand and implement for simple CRUD operations.\n- **GraphQL:** Complex or evolving APIs with diverse client needs, requiring efficient data loading and reduced API calls.\n\n---\n\nIf you want, I can also provide examples of typical REST and GraphQL queries!",
+      "input_tokens": 26,
+      "output_tokens": 601,
+      "latency": 13.04
+    },
+    "claude": {
+      "model": "claude-haiku-4-5",
+      "answer": "# REST vs GraphQL\n\n## **REST (Representational State Transfer)**\n\nREST uses **fixed endpoints** that return predefined data structures:\n\n```\nGET /api/users/123          \u2192 returns user object\nGET /api/users/123/posts    \u2192 returns user's posts\nGET /api/users/123/comments \u2192 returns user's comments\n```\n\n**Key characteristics:**\n- Multiple requests needed for related data\n- Client gets all fields (over-fetching)\n- Client can't request only needed fields (under-fetching)\n- Resources organized by URLs\n- Caching easier (uses HTTP methods)\n\n---\n\n## **GraphQL**\n\nGraphQL uses **one endpoint** where clients request exactly what they need:\n\n```graphql\nquery {\n  user(id: 123) {\n    name\n    email\n    posts {\n      title\n    }\n  }\n}\n```\n\n**Key characteristics:**\n- Single request for related data\n- Client specifies exact fields needed\n- No over/under-fetching\n- Query language defines the structure\n- Caching more complex (usually POST requests)\n\n---\n\n## **Comparison Table**\n\n| Aspect | REST | GraphQL |\n|--------|------|---------|\n| **Endpoints** | Multiple | Single |\n| **Data Fetching** | Fixed structure | Client-defined |\n| **Over-fetching** | Yes | No |\n| **Under-fetching** | Yes | No |\n| **Requests** | Multiple often needed | Usually single |\n| **Learning Curve** | Simpler | Steeper |\n| **Caching** | Native HTTP caching | More complex |\n\n---\n\n## **When to Use Each**\n\n**REST:** Simple APIs, public APIs, when caching is critical\n\n**GraphQL:** Complex data relationships, mobile apps (bandwidth), rapidly evolving APIs",
+      "input_tokens": 23,
+      "output_tokens": 419,
+      "latency": 4.25
+    }
+  },
+  {
+    "prompt": "Classify this message as billing, technical, or general: My card was charged twice.",
+    "gpt": {
+      "model": "gpt-4.1-mini",
+      "answer": "This message is a billing issue.",
+      "input_tokens": 35,
+      "output_tokens": 8,
+      "latency": 1.07
+    },
+    "claude": {
+      "model": "claude-haiku-4-5",
+      "answer": "**Classification: Billing**\n\nThis message is about a billing issue - specifically a duplicate charge on a payment card, which falls under billing/payment concerns.",
+      "input_tokens": 31,
+      "output_tokens": 35,
+      "latency": 1.75
+    }
+  },
+  {
+    "prompt": "Give 3 startup ideas using AI.",
+    "gpt": {
+      "model": "gpt-4.1-mini",
+      "answer": "Certainly! Here are three startup ideas leveraging AI:\n\n1. **AI-Powered Personalized Learning Platform**  \n   Create an adaptive education platform that uses AI to personalize learning paths for students based on their strengths, weaknesses, and interests. The system can analyze performance data in real-time and recommend tailored content, exercises, and resources to maximize learning efficiency and engagement.\n\n2. **AI-Driven Healthcare Diagnostics Assistant**  \n   Develop an AI tool that assists doctors by analyzing medical images, patient history, and symptoms to offer diagnostic suggestions and treatment options. This system can help reduce human error, speed up diagnosis, and provide decision support for complex cases, especially in underserved areas.\n\n3. **AI-Based Content Creation and Marketing Automation**  \n   Build a platform that uses AI to generate high-quality marketing content\u2014such as blog posts, social media updates, and ad copy\u2014tailored to a company\u2019s target audience. The platform can also schedule and optimize posting times, analyze campaign performance, and suggest improvements to boost engagement and ROI.\n\nIf you want, I can help you brainstorm or flesh out any of these ideas further!",
+      "input_tokens": 25,
+      "output_tokens": 223,
+      "latency": 4.82
+    },
+    "claude": {
+      "model": "claude-haiku-4-5",
+      "answer": "# 3 AI Startup Ideas\n\n## 1. **AI-Powered Customer Support Automation**\nA platform that uses natural language processing to handle 80% of common customer inquiries automatically across email, chat, and social media. It learns from your business data to provide accurate, brand-consistent responses while seamlessly escalating complex issues to humans. Target: SMBs and e-commerce companies.\n\n## 2. **Personalized Learning Path Generator**\nAn AI tool that creates custom educational curricula tailored to individual learning styles, pace, and goals. It adapts in real-time based on performance, generates bite-sized content, and identifies knowledge gaps. Market to corporate training departments, online education platforms, and career changers.\n\n## 3. **AI-Driven Supply Chain Optimizer**\nSoftware that uses machine learning to predict demand, optimize inventory levels, and suggest cost-saving logistics routes for manufacturing and retail companies. It analyzes historical data, market trends, and external factors to reduce waste and improve cash flow.\n\n---\n\nEach leverages AI's strengths (pattern recognition, automation, personalization) to solve real business problems and generate recurring revenue.",
+      "input_tokens": 22,
+      "output_tokens": 252,
+      "latency": 3.13
+    }
+  },
+  {
+    "prompt": "Explain JWT authentication.",
+    "gpt": {
+      "model": "gpt-4.1-mini",
+      "answer": "JWT (JSON Web Token) authentication is a popular method for securely transmitting information between parties as a JSON object. It is commonly used for authentication and authorization in web applications and APIs.\n\n### What is JWT?\n\nA JSON Web Token (JWT) is a compact, URL-safe token consisting of three parts:\n1. **Header**: Contains metadata about the token, such as the type of token (JWT) and the signing algorithm (e.g., HS256).\n2. **Payload**: Contains the claims or the data you want to transmit (e.g., user ID, expiration time).\n3. **Signature**: A cryptographic signature, created by combining the encoded header, encoded payload, and a secret key (or private key), to ensure the token's authenticity and integrity.\n\nA JWT looks like this:\n```\nxxxxx.yyyyy.zzzzz\n```\nWhere `xxxxx`, `yyyyy`, `zzzzz` are Base64URL encoded strings representing the header, payload, and signature respectively.\n\n---\n\n### How JWT Authentication Works\n\n1. **User Login:**\n   - The user sends their credentials (username, password) to the authentication server.\n   - The server validates the credentials.\n\n2. **Token Issuance:**\n   - On successful authentication, the server generates a JWT containing user information or claims (like user ID, roles).\n   - The JWT is signed using a secret key (or private key in asymmetric encryption).\n   - The server sends this token back to the client.\n\n3. **Client Stores the Token:**\n   - The client stores the JWT, typically in localStorage, sessionStorage, or cookies.\n\n4. **Subsequent Requests:**\n   - For protected routes or services, the client includes the JWT in the HTTP Authorization header, usually prefixed with the word \"Bearer\":\n     ```\n     Authorization: Bearer <jwt_token>\n     ```\n   - The server receives the request and verifies the token by validating its signature and checking the claims (expiry, issuer, etc.).\n\n5. **Authorization:**\n   - If the JWT is valid, the server trusts the payload and grants access or performs actions based on the claims.\n   - If the token is invalid or expired, the server denies access and may respond with an error (e.g., 401 Unauthorized).\n\n---\n\n### Benefits of JWT Authentication\n\n- **Stateless:** The server doesn\u2019t need to keep session information because all the info is in the token.\n- **Scalable:** Useful in distributed systems and microservices architectures.\n- **Compact and URL-safe:** Can be easily used in HTTP headers, URLs, or cookies.\n- **Cross-domain:** Suitable for Single Sign-On (SSO) between different domains.\n\n---\n\n### Security Considerations\n\n- Use HTTPS to prevent token interception.\n- Keep the secret key safe and private.\n- Set appropriate expiration times to limit token lifetime.\n- Be cautious with storing tokens in localStorage (XSS risk) vs. in HttpOnly cookies.\n- Validate all tokens carefully on the server side.\n\n---\n\n### Summary\n\nJWT authentication is a widely used method to handle authentication in modern web applications by issuing cryptographically signed tokens that clients use to access protected resources without the need for server-side sessions.",
+      "input_tokens": 21,
+      "output_tokens": 650,
+      "latency": 13.69
+    },
+    "claude": {
+      "model": "claude-haiku-4-5",
+      "answer": "# JWT Authentication\n\n## What is JWT?\n\n**JWT (JSON Web Token)** is a compact, self-contained token format for securely transmitting information between parties as a JSON object. It's commonly used for authentication and authorization.\n\n## Structure\n\nA JWT consists of three parts separated by dots (`.`):\n\n```\nheader.payload.signature\n```\n\n### 1. **Header**\nContains token type and hashing algorithm:\n```json\n{\n  \"alg\": \"HS256\",\n  \"typ\": \"JWT\"\n}\n```\n\n### 2. **Payload**\nContains claims (user data):\n```json\n{\n  \"sub\": \"1234567890\",\n  \"name\": \"John Doe\",\n  \"iat\": 1516239022,\n  \"exp\": 1516242622\n}\n```\n- **iat**: issued at time\n- **exp**: expiration time\n- **sub**: subject (typically user ID)\n\n### 3. **Signature**\nEnsures token integrity:\n```\nHMACSHA256(base64(header) + \".\" + base64(payload), secret_key)\n```\n\n## How It Works\n\n```\n1. User logs in with credentials\n        \u2193\n2. Server validates credentials\n        \u2193\n3. Server generates JWT token\n        \u2193\n4. Token sent to client\n        \u2193\n5. Client stores token (localStorage, cookie, etc.)\n        \u2193\n6. Client includes token in request header (Authorization: Bearer <token>)\n        \u2193\n7. Server validates signature and expiration\n        \u2193\n8. Request processed if valid\n```\n\n## Basic Example (Node.js)\n\n```javascript\n// Generate JWT\nconst jwt = require('jsonwebtoken');\n\nconst token = jwt.sign(\n  { userId: 123, email: 'user@example.com' },\n  'secret_key',\n  { expiresIn: '1h' }\n);\n\n// Verify JWT\ntry {\n  const decoded = jwt.verify(token, 'secret_key');\n  console.log(decoded); // { userId: 123, email: '...', ",
+      "input_tokens": 18,
+      "output_tokens": 500,
+      "latency": 3.6
+    }
+  },
+  {
+    "prompt": "Write a SQL query to find duplicate emails.",
+    "gpt": {
+      "model": "gpt-4.1-mini",
+      "answer": "Certainly! To find duplicate emails in a table, you can use the `GROUP BY` clause combined with the `HAVING` clause to identify emails that appear more than once.\n\nAssuming your table is named `users` and the email column is named `email`, here's a query to find duplicate emails:\n\n```sql\nSELECT email, COUNT(*) AS count\nFROM users\nGROUP BY email\nHAVING COUNT(*) > 1;\n```\n\nThis query groups rows by email and returns only those emails that appear more than once along with the count of their occurrences.",
+      "input_tokens": 26,
+      "output_tokens": 115,
+      "latency": 2.39
+    },
+    "claude": {
+      "model": "claude-haiku-4-5",
+      "answer": "# SQL Query to Find Duplicate Emails\n\nHere are several approaches depending on your needs:\n\n## 1. **Simple - Find emails that appear more than once**\n\n```sql\nSELECT email\nFROM users\nGROUP BY email\nHAVING COUNT(*) > 1;\n```\n\n## 2. **With count of duplicates**\n\n```sql\nSELECT email, COUNT(*) as count\nFROM users\nGROUP BY email\nHAVING COUNT(*) > 1\nORDER BY count DESC;\n```\n\n## 3. **Get all duplicate records (with IDs)**\n\n```sql\nSELECT id, email\nFROM users\nWHERE email IN (\n    SELECT email\n    FROM users\n    GROUP BY email\n    HAVING COUNT(*) > 1\n)\nORDER BY email;\n```\n\n## 4. **Using CTE (Common Table Expression)**\n\n```sql\nWITH duplicate_emails AS (\n    SELECT email, COUNT(*) as count\n    FROM users\n    GROUP BY email\n    HAVING COUNT(*) > 1\n)\nSELECT u.id, u.email, de.count\nFROM users u\nJOIN duplicate_emails de ON u.email = de.email\nORDER BY u.email;\n```\n\n## 5. **Using ROW_NUMBER() - Get all duplicates with rank**\n\n```sql\nSELECT id, email, row_number\nFROM (\n    SELECT \n        id, \n        email,\n        ROW_NUMBER() OVER (PARTITION BY email ORDER BY id) as row_number\n    FROM users\n) ranked\nWHERE row_number > 1;\n```\n\n## 6. **Find and delete duplicates** (keeps first occurrence)\n\n```sql\nDELETE FROM users\nWHERE id NOT IN (\n    SELECT MIN(id)\n    FROM users\n    GROUP BY email\n);\n```\n\n---\n\n## **Which one should you use?**\n\n- **Query 1-2**: Quick overview of duplicate emails\n- **Query 3**: See all records with duplicate emails\n- **Query 4**: Best for complex joins\n- **Query 5**: When you need ranking information\n- **Query 6**: To remove duplicates (use with caution!)\n\nReplace `users` and `email` with your actual table and column names.",
+      "input_tokens": 22,
+      "output_tokens": 500,
+      "latency": 3.84
+    }
+  },
+  {
+    "prompt": "Give a simple analogy for tokenization.",
+    "gpt": {
+      "model": "gpt-4.1-mini",
+      "answer": "Sure! \n\nTokenization is like cutting a sentence into individual puzzle pieces. Each piece (token) can be a word, part of a word, or a character that helps you understand the whole picture (sentence). Just like you need to break a puzzle into pieces to see how it fits together, tokenization breaks text into smaller parts so a computer can process and understand it.",
+      "input_tokens": 25,
+      "output_tokens": 77,
+      "latency": 3.22
+    },
+    "claude": {
+      "model": "claude-haiku-4-5",
+      "answer": "# Tokenization Analogy\n\nThink of tokenization like **breaking a sentence into words**.\n\nWhen you read \"Hello world\", tokenization splits it into individual tokens:\n- \"Hello\"\n- \"world\"\n\nSimilarly, in AI/language processing, tokenization takes raw text and breaks it into smaller pieces (tokens) that the model can understand and process.\n\n**A more everyday analogy:** It's like how you chew food into smaller pieces before swallowing \u2014 the computer needs to break language into digestible chunks to work with it.",
+      "input_tokens": 22,
+      "output_tokens": 119,
+      "latency": 1.8
+    }
+  }
+]

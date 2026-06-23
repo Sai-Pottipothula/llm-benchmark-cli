@@ -2,6 +2,5 @@
 .env
 __pycache__/
 *.pyc
-results.json
 cache.db
 node_modules/

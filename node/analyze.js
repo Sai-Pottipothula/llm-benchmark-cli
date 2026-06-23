@@ -1,7 +1,6 @@
 import "dotenv/config";
 import OpenAI from "openai";
 import Anthropic from "@anthropic-ai/sdk";
-
 import {
   getCachedResponse,
   saveCachedResponse,
@@ -20,12 +19,7 @@ const isStreaming = process.argv.includes("--stream");
 
 const systemPrompt = "You are a helpful assistant.";
 
-if (!prompt) {
-  console.log('Usage: node ask.js "your prompt" --stream');
-  process.exit(1);
-}
-
-async function askGPT() {
+async function askGPT(prompt, system) {
   const cached = await getCachedResponse("gpt", prompt, systemPrompt);
 
   if (cached) {
@@ -57,7 +51,7 @@ async function askGPT() {
   return result;
 }
 
-async function askClaude() {
+async function askClaude(prompt, system) {
   const cached = await getCachedResponse("claude", prompt, systemPrompt);
 
   if (cached) {
@@ -164,3 +158,5 @@ console.log(claude.answer);
 }
 
 main();
+
+export { askGPT, askClaude };

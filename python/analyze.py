@@ -8,7 +8,7 @@ CLAUDE_INPUT_PRICE = 1.00
 CLAUDE_OUTPUT_PRICE = 5.00
 
 
-with open("results.json", "r") as f:
+with open("python/results.json", "r") as f:
     results = json.load(f)
 
 
