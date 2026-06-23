@@ -1,18 +1,6 @@
-# LLM API Benchmark - Claude vs GPT
+# LLM API Benchmark — Claude vs GPT
 
 A CLI tool that sends prompts to both Anthropic Claude and OpenAI GPT, compares their responses side-by-side, and benchmarks them across latency, token usage, and cost. Built in both Python and Node.js.
-
----
-
-## What it does
-
-- Sends any prompt to Claude and GPT simultaneously
-- Prints responses with token counts and latency
-- Supports streaming (tokens print as they arrive)
-- Supports custom system prompts via `--system`
-- Caches responses in SQLite so repeated prompts don't cost money
-- Runs a 10-prompt benchmark harness and stores results in JSON
-- Calculates total cost, average latency, and token usage
 
 ---
 
@@ -31,14 +19,14 @@ A CLI tool that sends prompts to both Anthropic Claude and OpenAI GPT, compares 
 
 For a startup doing customer-support classification, **pick GPT-4.1 Mini**.
 
-It's 4x cheaper than Claude Haiku, slightly faster on average, and handles classification tasks (billing vs technical vs general) accurately. Claude shines on longer reasoning and structured explanations — worth considering if response quality matters more than cost.
+It's 4x cheaper than Claude Haiku, slightly faster on average, and handles classification tasks (billing vs technical vs general) accurately. Claude shines on longer reasoning and structured explanations — worth it if response quality matters more than cost.
 
 ---
 
 ## Project Structure
 
 ```
-llm-api-benchmark/
+llm-benchmark-cli/
 ├── python/
 │   ├── ask.py          # CLI tool — send prompt to both models
 │   ├── cache.py        # SQLite caching
@@ -62,11 +50,11 @@ llm-api-benchmark/
 
 **Clone the repo**
 ```bash
-git clone <your-repo-url>
-cd llm-api-benchmark
+git clone https://github.com/your-username/llm-benchmark-cli.git
+cd llm-benchmark-cli
 ```
 
-**Add your API keys** — create a `.env` file:
+**Add your API keys** — create a `.env` file in the root:
 ```
 ANTHROPIC_API_KEY=your_key_here
 OPENAI_API_KEY=your_key_here
@@ -88,23 +76,25 @@ npm install
 
 ## Usage
 
-**Python**
+### Python
+
 ```bash
 # Basic
-cd python && python ask.py "what is machine learning?"
+python python/ask.py "what is machine learning?"
 
 # With system prompt
-python ask.py "who are you?" --system "You are a pirate"
+python python/ask.py "who are you?" --system "You are a pirate"
 
 # Streaming
-python ask.py "explain transformers" --stream
+python python/ask.py "explain transformers" --stream
 
 # Run benchmark
-python harness.py
-python analyze.py
+python python/harness.py
+python python/analyze.py
 ```
 
-**Node.js**
+### Node.js
+
 ```bash
 # Basic
 node node/ask.js "what is machine learning?"
@@ -119,9 +109,21 @@ node node/analyze.js
 
 ---
 
+## What it does
+
+- Sends any prompt to Claude and GPT simultaneously
+- Prints responses with token counts and latency
+- Supports streaming — tokens print as they arrive
+- Supports custom system prompts via `--system`
+- Caches responses in SQLite so repeated prompts don't cost money
+- Runs a 10-prompt benchmark harness and stores results in JSON
+- Calculates total cost, average latency, and token usage
+
+---
+
 ## Caching
 
-Responses are cached in SQLite. Run the same prompt twice and the second call is instant and free. Delete `cache.db` to clear it.
+Responses are cached in SQLite. Run the same prompt twice and the second call is instant and free. Delete `cache.db` to clear the cache.
 
 ---
 
