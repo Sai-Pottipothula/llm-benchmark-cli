@@ -50,7 +50,7 @@ llm-benchmark-cli/
 
 **Clone the repo**
 ```bash
-git clone https://github.com/your-username/llm-benchmark-cli.git
+git clone https://github.com/Sai-Pottipothula/llm-benchmark-cli.git
 cd llm-benchmark-cli
 ```
 
